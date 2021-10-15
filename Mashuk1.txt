@@ -1,0 +1,31 @@
+die Aufgabe: die java-Quellcode-Datei Hello.java uber die Konsole compi- ¨
+lieren und ausfuhren
+
+die Datei liegt in: /home/alice/progra/Blatt01
+
+die Loesung:
+
+1) mit Windows-Taste+cmd die Eingabeaufforderung aufrufen.
+
+2) den Befehl "...\dir" eingeben um zu pruefen ob der Ordner "home" existiert.
+
+3) Falls er auf der Liste zu sehen ist, lautet der naechste Befehl folgendermassen: ...\cd home. So ueberspringen wir direkt in den Ordner "home".
+
+4)identischerweiser gehen wir weiter vor:
+
+...\cd alice
+...\cd progra
+...\cd Blatt01
+dabei ist wichtig auf die Gross- und Kleinschreibung zu achten. wenn das System das Pfad trotz der richtigen Aufschreibung nicht gefunden hat - ist es erforderlich,  erneut zu pruefen, wo die Datei zu finden ist.
+
+5) wenn die letzte Zeile im Terminal folgendermassen aussieht
+...\home\alice\progra\Blatt01
+koennen wir noch einmal mit dem Befehl "dir" pruefen ob die Datei Hello.java in diesem Ordner wirklich liegt.
+
+6) als naechstes muessen wir die Datei kompilieren indem wir den Befehl ...\javac Hello.java ausfuehren.
+wenn es keine Fehler Mitteilungen gibt - hat alles erfolgreich geklappt.
+
+7) als letztes fuehren wir das Programm aus
+der Befehl lautet: ...\java Hello
+
+wenn der Code richtig ist - alles funktioniert)
